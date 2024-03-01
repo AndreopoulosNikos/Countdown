@@ -1,0 +1,36 @@
+body {
+  background-color: #f87ec5;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 15%;
+  font-family: "Protest Riot", sans-serif;
+  color: #b8f77e;
+  font-size: 2.5em;
+}
+
+#countdown {
+  font-family: "Protest Riot", sans-serif;
+  color: white;
+  font-size: 2em;
+}
+
+button {
+  margin-top: 20%;
+  display: none;
+  border-radius: 15px;
+  background-color: #f87ec5;
+  border: #f7e77e solid;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+.hover_button {
+  color: #785f6d;
+  background-color: #d7fad4;
+}
