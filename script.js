@@ -31,10 +31,14 @@ function updateCountdown(targetDate) {
     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-    // Update your HTML element with the countdown
-    document.getElementById(
-      "countdown"
-    ).innerHTML = `${days} days <br> ${hours} hours <br> ${minutes} minutes <br> ${seconds} seconds <br> remaining until <br> Olga's Birthday`;
+    // Update HTML element with the countdown
+    document.getElementById("countdown").innerHTML = `${days} ${
+      days === 1 ? "day" : "days"
+    }, <br> ${hours} ${hours === 1 ? "hour" : "hours"}, <br> ${minutes} ${
+      minutes === 1 ? "minute" : "minutes"
+    } <br> and <br> ${seconds} ${
+      seconds === 1 ? "second" : "seconds"
+    } <br> remaining until <br> Olga's Birthday!!`;
   }
 }
 
