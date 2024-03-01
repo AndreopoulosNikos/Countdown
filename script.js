@@ -11,9 +11,6 @@ button.addEventListener("touchend", function () {
   link.style.color = "white";
 });
 
-const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-console.log(timezone);
-
 function updateCountdown(targetDate) {
   const currentDate = new Date();
   const difference = targetDate - currentDate;
