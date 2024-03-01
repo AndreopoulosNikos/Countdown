@@ -41,7 +41,7 @@ function updateCountdown(targetDate) {
   }
 }
 
-const targetDate = new Date("2024-03-01T19:51:00");
+const targetDate = new Date("2024-03-01T19:55:00");
 
 // Set the interval and store the interval ID
 const intervalId = setInterval(() => {
